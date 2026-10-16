@@ -16,7 +16,7 @@ public class CalculatorApp {
         int num2 = Integer.parseInt(inputText);
 
         System.out.println("Enter operation, you would like to use: ");
-        String operation = input.nextLine();
+        inputText = input.nextLine();
         System.out.println("You chose Multiplication: ");
 
         System.out.println(num1 * num2);
